@@ -1,0 +1,39 @@
+.main-container {
+    padding: 20px;
+}
+.top-stories, .latest-news, .tournament-scores {
+    margin-bottom: 30px;
+}
+.top-stories img {
+    width: 100%;
+}
+.top-stories h2, .latest-news h2, .tournament-scores h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+.news-item, .score-item {
+    background-color: #222;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.news-item img {
+    width: 100px;
+    margin-right: 15px;
+}
+.news-item p, .score-item p {
+    margin: 0;
+}
+.view-more {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.forum-container {
+    width: 80%;
+    margin: auto;
+    
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forum-section {
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 15px;
+    border-radius: 5px;
+}
+.forum-section img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.forum-section h3 {
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.topic {
+    margin-left: 60px;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
+.topic:hover {
+    background-color: #444;
+}
+.topic p {
+    margin: 0;
+}

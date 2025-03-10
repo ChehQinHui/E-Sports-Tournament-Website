@@ -1,0 +1,59 @@
+body{
+    background-color:red;
+}
+.container{
+    display: flex;
+}
+h1{
+    color: white;
+    font-size:auto;
+    margin: 50px;
+}
+.bon{
+    color: brown;
+}
+.fire{
+    color: red;
+}
+.loginicon{
+    width: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 5px;
+}   
+.loginbox {
+    max-width: 100%;
+    width: 550px;
+    height: auto;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    float: left;
+    align-items: center;
+}
+.password {
+   margin: 10px 50px;
+   border-radius: 25px;
+   width: 100%;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+}
+.password input{
+    padding: 10px 5px;
+    
+}
+.Rememberme, p{
+    font-size: 20px;
+    color: white;
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.facebookbtn, .googlebtn, .Applebtn {
+    border-radius: 100%;
+    border: none;
+    width: fit-content;
+    margin: 0 30px;
+}
+

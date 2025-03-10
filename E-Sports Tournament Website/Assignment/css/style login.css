@@ -1,0 +1,73 @@
+body{
+    box-sizing: border-box;
+    background-color:black;
+}
+.container{
+    width: auto;
+    box-sizing: border-box;   
+}
+.login{
+    box-sizing: border-box;
+    height:100%;
+    width: max(40%,600px);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float:left;  
+    margin-top: 100px;
+    margin-left: 100px;
+}
+h1{
+  color: white;
+  text-transform: uppercase;
+  margin: 50px;
+}
+.bon{
+    color: brown;
+}
+.fire{
+    color: red;
+}
+.Rememberme, .signup{
+    color: white;
+    margin: 10px;
+}
+.signup a{
+    color: white;
+}
+.Rememberme button{
+    background-color: brown;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 80px;
+    cursor: pointer;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 105px;
+}
+.email,.password{
+    width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    float: right;
+    width:auto;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 150px;
+    padding-right: 100px;
+}
+
+  .input-field {
+    width: 888px;
+    height: 15px;
+    padding: 10px;
+    outline: none;
+    border-radius: 80px;
+  }
