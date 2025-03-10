@@ -21,14 +21,14 @@ This is an E-Sports tournament management website that allows users to register 
 2. **Import the database:**
    - Open **phpMyAdmin**.
    - Create a new database (e.g., `esports_db`).
-   - Import the provided SQL file (`esports_db.sql`).
+   - Import the provided SQL file (`create_account.sql`).
 3. **Configure the database connection:**
    - Open `config.php` and update the database credentials:
      ```php
      $host = "localhost";
      $user = "root"; // Change if necessary
      $password = "";
-     $database = "esports_db";
+     $database = "create_account.sql";
      ```
 4. **Run the project:**
    - Move the project folder to the web server directory (e.g., `htdocs` in XAMPP).
@@ -46,7 +46,5 @@ This is an E-Sports tournament management website that allows users to register 
 - Implement **bracket visualization** for tournament progression.
 - Improve **security measures** for user authentication.
 
-## Author
-Developed by Cheh Qin Hui  
-GitHub/Portfolio: [Insert link here]
+
 
